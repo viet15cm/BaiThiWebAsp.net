@@ -1,0 +1,91 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#banner {
+    width: 100%;
+    height: 200px;
+    background-image: url('https://i.pinimg.com/originals/51/de/7e/51de7e02f9888b516175a9851f68e93f.jpg');
+}
+
+body, html {
+    width: 80%;
+    height: 100%;
+    background-image: url('https://img.thuthuattinhoc.vn/uploads/2019/01/24/hinh-nen-mau-xanh-cute-dep-nhat_115835131.jpg');
+    background-size:cover;
+   margin : 0px auto;
+}
+a {
+    text-decoration: none !important;
+}
+
+#collapsibleNavbar > ul > li > a:hover {
+    color: yellow !important;
+}
+.bg-pink {
+    background-color: blue !important;
+}
+
+#ContentPlaceHolder1_GridView1 > tbody > tr:nth-child(1) {
+    background-color: blue !important;
+}
+
+#ContentPlaceHolder1_GridView2 > tbody > tr:nth-child(1) {
+    background-color: blue !important;
+}
+
+#ContentPlaceHolder1_GridView3 > tbody > tr:nth-child(1) {
+    background-color: blue !important;
+}
+
+#ContentPlaceHolder1_GridView1 > tbody > tr:nth-child(1) a:hover {
+    color: blue !important;
+}
+
+#ContentPlaceHolder1_GridView1 * {
+    border-color: black !important;
+}
+
+#ContentPlaceHolder1_GridView2 * {
+    border-color: black !important;
+}
+
+#ContentPlaceHolder1_GridView3 * {
+    border-color: black !important;
+}
+
+#ContentPlaceHolder1_DetailsView1 td {
+    border-color: black !important;
+}
+
+#ContentPlaceHolder1_DetailsView2 td {
+    border-color: black !important;
+}
+
+table a {
+    color: black;
+}
+
+td a {
+    color: red;
+}
+
+td a:hover {
+        color: green;
+ font-style: italic;
+}
+
+input[type='text'] {
+    width: 300px;
+}
+
+#form1 > nav:nth-child(5) > div > div:nth-child(2) > p {
+    line-height: 30px;
+}
+
+
+#ContentPlaceHolder1_DetailsView1 , #ContentPlaceHolder1_DetailsView2 {
+    width: 30% !important;
+}
+

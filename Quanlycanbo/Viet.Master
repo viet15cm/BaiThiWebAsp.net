@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Viet.Master.cs" Inherits="Quanlycanbo.Magic" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script src="Scripts/jquery-3.5.1.min.js"></script>
+
+
+    <script src="Scripts/bootstrap.min.js"></script>
+
+  <script src="Scripts/magic.js"></script>
+    <script src="Scripts/wow.js"></script>
+    <link href="css/animate.css" rel="stylesheet" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/magic.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+             <div id ="banner">
+
+     </div>
+        <nav class="navbar navbar-expand-md bg-primary bg-pink navbar-dark">
+ 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link text-center text-white" href="Default.aspx">Trang chủ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-center text-white" href="Tintuc.aspx">Tin tức</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-center text-white" href="Tacgia.aspx">Tác giả</a>
+      </li>   
+        <li class="nav-item">
+        <a class="nav-link text-center text-white" href="Canbo.aspx">Chủ đề</a>
+      </li> 
+    </ul>
+  </div>  
+</nav>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+        
+        <nav class="navbar navbar-expand-md bg-primary bg-pink">
+           
+                <div class="col">
+                     <p style="font-size: 15px" class="text-footer">© 2020 Copyright by Quoc Viet - All Rights Reserved | Designed by Quoc Viet</p>
+                </div>
+          
+            
+        </nav>
+        
+     
+    </form>
+</body>
+</html>
