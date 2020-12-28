@@ -12,3 +12,40 @@
 - Mở File  quanlytintuc.sql
 
 ![Image](AnhThi/h0.png)
+
+## Tạo Mối Quan Hệ
+
+![Image](AnhThi/h1.png)
+
+## Dao Diện Tang Chủ
+
+![Image](AnhThi/h2.png)
+
+## Dao Diện Trang Tin Tức
+
+![Image](AnhThi/TT1.png)
+
+- Tính Năng Xóa
+
+![Image](AnhThi/TTXao.png)
+
+- Tính Năng Sữa
+
+![Image](AnhThi/TTSua.png)
+
+- Tính Năng Thêm
+
+![Image](AnhThi/TTThem.png)
+
+## Dao Diện Trang Tác Giả
+
+![Image](AnhThi/TG.png)
+
+## Dao Diện Trang Chủ Đề
+
+![Image](AnhThi/CD.png)
+
+# Hết
+
+
+
